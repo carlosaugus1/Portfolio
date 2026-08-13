@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos - Software Developer & Network Solutions</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- Background Video (Fixed) -->
+    <div class="video-container">
+        <div class="video-overlay"></div>
+        <video id="heroVideo"
+            src="https://strvid.nyc3.cdn.digitaloceanspaces.com/cloudinary/portfolio_hero_bg_zuhahj.webm" autoplay muted
+            playsinline>
+        </video>
+    </div>
+
+    <div class="main-wrapper">
+
+        <!-- Header / Navigation -->
+        <header class="navbar animate-fade-up" style="--delay: 0.1s">
+            <a href="#home" class="logo">
+                <i class="ph ph-cube-transparent"></i>
+                Carlos Augusto
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline"><span class="shiny-text">Fale Comigo</span></a>
+            </div>
+
+            <i class="ph ph-list mobile-menu-toggle"></i>
+        </header>
+
+        <!-- Main Hero Content -->
+        <section id="home" class="hero-section">
+            <main class="hero-content">
+                <div class="text-wrapper">
+                    <p class="greeting animate-fade-up" style="--delay: 0.2s">Olá, eu sou</p>
+                    <h1 class="main-title animate-fade-up" style="--delay: 0.3s">Software<br>Developer</h1>
+                    <h2 class="sub-title animate-fade-up" style="--delay: 0.4s"><span
+                            class="animated-gradient-text">Desenvolvedor Full-Stack & Especialista
+                            em Infraestrutura</span></h2>
+
+                    <div class="cta-group animate-fade-up" style="--delay: 0.5s">
+                        <a href="#projects" class="btn btn-primary">Veja meu trabalho</a>
+                        <a href="#cv" class="btn btn-outline">Download Currículo</a>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="hero-footer animate-fade-up" style="--delay: 0.5s">
+                <div class="footer-left">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/carlosaugus1/" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                        <a href="https://github.com/carlosaugus1" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="Github"><i class="ph ph-github-logo"></i></a>
+                    </div>
+
+                    <div class="stats-group">
+                        <div class="stat-item">
+                            <strong>3+</strong> Anos de Experiência
+                        </div>
+                        <div class="stat-line"></div>
+                        <div class="stat-item">
+                            <strong>10+</strong> Projetos Entregues
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+
+                <div class="glass-panel availability-card">
+                    <div class="pulse-dot"></div>
+                    <div class="availability-text">
+                        Disponível para trabalho freelance
+                        <span>Atualmente aceitando novos projetos para 2026.</span>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title reveal">Sobre <span class="animated-gradient-text">Mim</span></h2>
+            <p class="section-subtitle reveal">Conheça minha trajetória técnica, as tecnologias que domino e o que me
+                motiva a construir soluções eficientes.</p>
+
+            <div class="glass-panel about-grid reveal">
+                <div style="padding: 3rem;">
+                    <div class="about-content">
+                        <p>Sou um desenvolvedor focado em criar aplicações web robustas e escaláveis, utilizando
+                            tecnologias modernas como <span class="about-highlight">React, Next.js e Firebase</span>.
+                            Minha paixão é transformar dados e processos complexos em ferramentas intuitivas que
+                            resolvem problemas reais e otimizam operações corporativas e administrativas.</p>
+                        <p>Além do desenvolvimento de software, possuo forte experiência prática com infraestrutura de
+                            redes e configuração de servidores. Essa combinação me permite ter uma visão abrangente do
+                            ciclo de vida das aplicações, desde a estruturação, isolamento e segurança da rede até a
+                            entrega da interface final com alta performance.</p>
+
+                        <div class="skill-tags">
+                            <span class="skill-tag">React & Next.js</span>
+                            <span class="skill-tag">Firebase</span>
+                            <span class="skill-tag">Redes (VLAN, MikroTik)</span>
+                            <span class="skill-tag">Git / GitHub</span>
+                            <span class="skill-tag">Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 2rem;">
+                    <div class="about-visual glass-panel">
+                        <i class="ph ph-terminal-window"
+                            style="font-size: 6rem; color: var(--accent); opacity: 0.5;"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2 class="section-title reveal">Meus <span class="animated-gradient-text">Serviços</span></h2>
+            <p class="section-subtitle reveal">Soluções tecnológicas completas, integrando desenvolvimento de software
+                de ponta e arquitetura de redes confiável.</p>
+
+            <div class="services-grid">
+
+                <div class="glass-panel service-card reveal border-glow">
+                    <i class="ph ph-browsers service-icon"></i>
+                    <h3 class="service-title">Desenvolvimento Web</h3>
+                    <p class="service-desc">Criação de sistemas administrativos e aplicações web modernas utilizando
+                        React e Next.js, com foco em usabilidade, escalabilidade e performance.</p>
+                </div>
+
+                <div class="glass-panel service-card reveal border-glow" style="transition-delay: 0.1s;">
+                    <i class="ph ph-database service-icon"></i>
+                    <h3 class="service-title">Integração & Cloud</h3>
+                    <p class="service-desc">Estruturação de bancos de dados em tempo real, autenticação e hospedagem
+                        serverless utilizando ecossistemas como Firebase e Vercel.</p>
+                </div>
+
+                <div class="glass-panel service-card reveal border-glow" style="transition-delay: 0.2s;">
+                    <i class="ph ph-share-network service-icon"></i>
+                    <h3 class="service-title">Infraestrutura de Redes</h3>
+                    <p class="service-desc">Planejamento e configuração de redes locais (Switches, Access Points) e
+                        roteadores (TP-Link Omada, MikroTik), com isolamento avançado e segurança via VLANs.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section (New) -->
+        <section id="projects">
+            <h2 class="section-title reveal">Projetos em <span class="animated-gradient-text">Destaque</span></h2>
+            <p class="section-subtitle reveal">Conheça algumas das ferramentas e infraestruturas que desenvolvi para
+                solucionar demandas complexas do dia a dia.</p>
+
+            <div class="services-grid">
+
+                <div class="glass-panel service-card reveal border-glow">
+                    <i class="ph ph-car-profile service-icon"></i>
+                    <h3 class="service-title">Sistema App Frota</h3>
+                    <p class="service-desc">Sistema robusto de gestão desenvolvido para rastrear placas de veículos,
+                        calcular consumo de combustível e gerenciar alocações por departamento.</p>
+                </div>
+
+                <div class="glass-panel service-card reveal border-glow" style="transition-delay: 0.1s;">
+                    <i class="ph ph-chart-line-up service-icon"></i>
+                    <h3 class="service-title">Análise de Dados Administrativos</h3>
+                    <p class="service-desc">Ferramenta integrada capaz de auditar e processar relatórios de
+                        fornecimento, identificando anomalias sistêmicas de forma automatizada e precisa.</p>
+                </div>
+
+                <div class="glass-panel service-card reveal border-glow" style="transition-delay: 0.2s;">
+                    <i class="ph ph-hard-drives service-icon"></i>
+                    <h3 class="service-title">Arquitetura de Rede Corporativa</h3>
+                    <p class="service-desc">Implementação de rede estruturada de alto desempenho com segmentação IoT
+                        avançada através de VLANs, garantindo segurança e estabilidade operacional.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="section-title reveal">Vamos <span class="animated-gradient-text">Conversar</span></h2>
+            <p class="section-subtitle reveal">Tem um projeto de desenvolvimento ou infraestrutura em mente? Entre em
+                contato e vamos estruturar a melhor solução.</p>
+
+            <div class="contact-container reveal">
+
+                <div class="contact-info">
+                    <div class="glass-panel contact-item border-glow" style="padding: 1.5rem;">
+                        <div class="contact-icon">
+                            <i class="ph ph-envelope-simple"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>E-mail</h4>
+                            <p><a href="mailto:orvixsolucoes@gmail.com"
+                                    style="color: inherit; text-decoration: none; transition: color 0.3s;"
+                                    onmouseover="this.style.color='var(--accent)'"
+                                    onmouseout="this.style.color='inherit'">orvixsolucoes@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel contact-item border-glow" style="padding: 1.5rem;">
+                        <div class="contact-icon">
+                            <i class="ph ph-whatsapp-logo"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/5588981498814" target="_blank" rel="noopener noreferrer"
+                                    style="color: inherit; text-decoration: none; transition: color 0.3s;"
+                                    onmouseover="this.style.color='var(--accent)'"
+                                    onmouseout="this.style.color='inherit'">+55 (88) 98149-8814</a></p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel contact-item border-glow" style="padding: 1.5rem;">
+                        <div class="contact-icon">
+                            <i class="ph ph-map-pin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Localização</h4>
+                            <p>Guaraciaba do Norte, Ceará, Brasil (Remoto)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel border-glow">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Seu Nome</label>
+                            <input type="text" id="name" class="form-control" placeholder="Ex: João Silva" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" class="form-control" placeholder="joao@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Sua Mensagem</label>
+                            <textarea id="message" class="form-control"
+                                placeholder="Descreva os detalhes do seu projeto de software ou rede..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Enviar Mensagem <i class="ph ph-paper-plane-right" style="margin-left: 8px;"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <div class="logo">
+                <i class="ph ph-cube-transparent"></i>
+                <span class="shiny-text">Orvix</span>
+            </div>
+
+            <div class="footer-text">
+                &copy; 2026 Orvix Soluções. Todos os direitos reservados.
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/carlosaugus1/" target="_blank" rel="noopener noreferrer"
+                    class="social-link" aria-label="LinkedIn" style="width: 36px; height: 36px;"><i
+                        class="ph ph-linkedin-logo"></i></a>
+                <a href="https://github.com/carlosaugus1" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="Github" style="width: 36px; height: 36px;"><i class="ph ph-github-logo"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
