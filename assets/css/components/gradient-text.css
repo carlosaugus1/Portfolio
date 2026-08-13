@@ -1,0 +1,29 @@
+/* gradient-text.css */
+
+.animated-gradient-text {
+  display: inline-block;
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  
+  /* Fallback color */
+  background-color: var(--accent, #8A63F8) !important;
+  
+  /* Gradiente com o Roxo e Azul existentes no site, repetindo para o loop */
+  background-image: linear-gradient(to right, #9C7AFA, #5A8CFF, #9C7AFA, #5A8CFF) !important;
+  background-size: 300% 100% !important;
+  background-repeat: repeat !important;
+  
+  /* A animação movimenta o gradiente no background-position */
+  animation: gradient-shift 8s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

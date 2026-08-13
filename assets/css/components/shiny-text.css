@@ -1,0 +1,34 @@
+/* shiny-text.css */
+
+.shiny-text {
+  display: inline-block;
+  color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  
+  /* Cor base (color) = cinza/branco fraco, Cor do brilho (shineColor) = branco puro/accent */
+  /* Vamos usar --text-secondary para a base e --text-primary para o brilho */
+  background-image: linear-gradient(
+    120deg, 
+    var(--text-secondary, #b5b5b5) 0%, 
+    var(--text-secondary, #b5b5b5) 35%, 
+    var(--text-primary, #ffffff) 50%, 
+    var(--text-secondary, #b5b5b5) 65%, 
+    var(--text-secondary, #b5b5b5) 100%
+  ) !important;
+  
+  background-size: 200% auto !important;
+  
+  /* A animação tem speed=2s conforme o script */
+  animation: shiny-text-anim 2s linear infinite;
+}
+
+@keyframes shiny-text-anim {
+  0% {
+    background-position: 150% center;
+  }
+  100% {
+    background-position: -50% center;
+  }
+}

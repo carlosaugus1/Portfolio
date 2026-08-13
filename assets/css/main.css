@@ -1,0 +1,29 @@
+/* 
+    Ponto de Entrada Global do CSS
+    Arquitetura 7-1 Padrão Simplificada
+*/
+
+/* 1. Base */
+@import url('base/variables.css');
+@import url('base/reset.css');
+@import url('base/animations.css');
+
+/* 2. Layout */
+@import url('layout/background.css');
+@import url('layout/grid.css');
+@import url('layout/navbar.css');
+@import url('layout/footer.css');
+
+/* 3. Components */
+@import url('components/buttons.css');
+@import url('components/cards.css');
+@import url('components/border-glow.css');
+@import url('components/gradient-text.css');
+@import url('components/shiny-text.css');
+@import url('components/forms.css');
+
+/* 4. Sections */
+@import url('sections/hero.css');
+@import url('sections/about.css');
+@import url('sections/services.css');
+@import url('sections/contact.css');

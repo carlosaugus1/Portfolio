@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #030305;
+    --text-primary: #FFFFFF;
+    --text-secondary: #d5d5d5;
+    --accent: #8A63F8;
+    --success: #00FF88;
+    --glass-bg: rgba(20, 20, 25, 0.4);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    
+    --accent-gradient: linear-gradient(135deg, #8A63F8 0%, #5C43FA 100%);
+    --accent-gradient-hover: linear-gradient(135deg, #9C7AFA 0%, #6D56FB 100%);
+    --accent-text-gradient: linear-gradient(90deg, #9C7AFA 0%, #5A8CFF 100%);
+    --video-overlay: linear-gradient(90deg, rgba(5, 5, 8, 0.95) 0%, rgba(29, 29, 53, 0.182) 40%, rgba(5, 5, 8, 0.4) 100%);
+    
+    --font-primary: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-secondary: 'Inter', system-ui, -apple-system, sans-serif;
+}
